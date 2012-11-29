@@ -1,0 +1,15 @@
+to build :
+
+gmake bin
+
+to install :
+
+gmake install
+
+collectd configuration :
+
+LoadPlugin pftables
+<Plugin pftables>
+  Table "foo"
+  Table "bar"
+</Plugin>
