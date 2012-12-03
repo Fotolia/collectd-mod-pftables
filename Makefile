@@ -1,6 +1,5 @@
-PREFIX=/usr/${EXTRA_PREFIX}
 PLUGINDIR=${PREFIX}/lib/collectd
-INCLUDEDIR=/usr/include/collectd/ ${EXTRA_INCLUDE}
+INCLUDEDIR=${PREFIX}/collectd/ ${EXTRA_INCLUDE}
 
 CFLAGS=-I${INCLUDEDIR} -Wall -g -O2
 
